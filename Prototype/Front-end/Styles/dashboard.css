@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashbooard CSS */
+
+.main2 {
+    width: 100%;
+    min-height: 100vh; /* ✅ expand to full page height */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(/Assets/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  /* ✅ background stays fixed */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar2{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+
+.logo2 {
+    color: #FFD700;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu2 {
+    width: 600px;
+    float: left;
+    height: auto;
+    float: right;
+}
+
+ul2 {
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+ul2 li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul2 li a:hover {
+    color: red;
+}
+
+.exit{
+    width: 160px;
+    height: 40px;
+    background: #FFD700;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 600px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    z-index: 10;
+}
+.exit:hover{
+    background-color: red;
+}
+
+.group{
+    display: flex;
+    float: left;
+}
+
+.recent{
+    color: #FFD700;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-size: bold;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.sim{
+    color: #FFD700;
+    padding-left: 200px;
+    padding-top: 40px;
+    font-size: bold;
+    font-family: Arial;
+    font-size: 40px;
+}
+/* Boxes */
+.box-gr{
+    display: flex;
+    float: left;
+}
+.box {
+ 
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.boxes {
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  border: 4px solid #FFD700;
+  padding-left: 200px;
+}
+.box2 {
+  
+  padding-left: 180px;
+  padding-top: 20px;
+}
+
+.boxes2 {
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  border: 4px solid #FFD700;
+  padding-left: 200px;
+}
+
+/* Dashboard Buttons */
+.btn-gr {
+  position: absolute;
+  top: 210px;        
+  left: 690px;       
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.next,
+.create {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.next:hover,
+.create:hover {
+  background-color: #ff0000;
+}
+
+.btn-gr2 {
+  position: absolute;
+  top: 320px;        
+  left: 690px;       
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.next,
+.create {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.next:hover,
+.create:hover {
+  background-color: #ff0000;
+}
+
+.main2 {
+    width: 100%;
+    min-height: 100vh; /* ✅ expand to full page height */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(/Assets/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  /* ✅ background stays fixed */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar2 {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+
+.logo2 {
+    color: #FFD700;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu2 {
+    width: 600px;
+    float: left;
+    height: auto;
+    float: right;
+}
+
+ul2 {
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+ul2 li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul2 li a:hover {
+    color: red;
+}
+
+/* Exit Button */
+.exit {
+    width: 160px;
+    height: 40px;
+    background: #FFD700;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 600px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    z-index: 10;
+}
+
+.exit:hover {
+    background-color: red;
+}
+
+.group {
+    display: flex;
+    float: left;
+}
+
+.recent {
+    color: #FFD700;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.sim {
+    color: #FFD700;
+    padding-left: 200px;
+    padding-top: 40px;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+/* Boxes */
+.box-gr {
+    display: flex;
+    float: left;
+}
+.box {
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.boxes {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #FFD700;
+}
+.box2 {
+  padding-left: 180px;
+  padding-top: 20px;
+}
+.boxes2 {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #FFD700;
+}
+
+/* Dashboard Buttons */
+.btn-gr, .btn-gr2, .btn-gr3 {
+  position: absolute;
+  left: 670px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+.btn-gr { top: 210px; }
+.btn-gr2 { top: 320px; }
+.btn-gr3 { top: 430px; }
+
+
+
+.next,
+.create {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.next:hover,
+.create:hover {
+  background-color: #ff0000;
+}
+
+/* ---------- Modal Styles ---------- */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 100; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.8); 
+}
+
+.modal-content {
+  background-color: #111;
+  margin: 10% auto;
+  padding: 20px;
+  border: 2px solid #FFD700;
+  width: 400px;
+  color: #FFD700;
+  border-radius: 10px;
+  font-family: Arial;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
+/* ---------- Block Explorer Styles ---------- */
+.block-explorer {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #FFD700;
+  border-radius: 15px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.block-explorer h2 {
+  text-align: center;
+  color: #FFD700;
+}
+
+#blockTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#blockTable th, #blockTable td {
+  border: 1px solid #FFD700;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.refresh-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background-color: #FFD700;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.pending-transactions {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(0,0,0,0.6);
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.pending-transactions h2 {
+  text-align: center;
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+#mempoolTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#mempoolTable th, #mempoolTable td {
+  border: 1px solid #FFD700;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}

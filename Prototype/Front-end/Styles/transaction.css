@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.create-page {
+    width: 100%;
+    min-height: 100vh; /* ✅ expand to full page height */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(/Assets/9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  /* ✅ background stays fixed */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #FFD700;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+
+.menu ul li {
+  margin-left: 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: red;
+}
+
+
+.nav-underline {
+  width: 1200px;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+}
+
+
+.form-container {
+  width: 500px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: #FFD700;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 6px;
+  background-color: #FFD700;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: red;
+}
+
+
+#confirmation {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: lightgreen;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0s;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(/Assets/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+
+.navbar2 {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon2 {
+    flex: 1;
+}
+
+.logo2 {
+    color: #FFD700;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 5px;
+}
+
+.menu2 {
+    flex: 1;
+    text-align: right;
+}
+
+.menu2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu2 ul li a:hover {
+    color: red;
+}
+
+
+.report-section {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.report-heading {
+    font-size: 40px;
+    font-family: Arial;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.report-desc {
+    font-size: 18px;
+    font-family: Arial;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.report-box {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.report-placeholder {
+    color: #ccc;
+    font-family: Arial;
+    font-size: 16px;
+}
