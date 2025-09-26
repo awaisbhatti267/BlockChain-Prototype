@@ -1,0 +1,113 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.109:5003
+Press CTRL+C to quit
+127.0.0.1 - - [22/Sep/2025 18:05:27] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:05:27] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:05:27] "POST /add_peer HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.109:5003
+Press CTRL+C to quit
+127.0.0.1 - - [22/Sep/2025 18:05:54] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:05:54] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:05:54] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:06:13] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:06:36] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.109:5003
+Press CTRL+C to quit
+127.0.0.1 - - [22/Sep/2025 18:12:10] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:12:10] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:12:10] "POST /add_peer HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.109:5003
+Press CTRL+C to quit
+127.0.0.1 - - [22/Sep/2025 18:12:48] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:12:49] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:12:49] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:13:00] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:13:14] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:13:41] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:14:23] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 18:14:49] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.106:5003
+Press CTRL+C to quit
+127.0.0.1 - - [23/Sep/2025 11:39:50] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:39:50] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:39:51] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:40:28] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:41:02] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:41:29] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:42:08] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.106:5003
+Press CTRL+C to quit
+127.0.0.1 - - [23/Sep/2025 11:42:56] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:42:56] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:42:56] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2025 11:44:32] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.105:5003
+Press CTRL+C to quit
+127.0.0.1 - - [24/Sep/2025 10:36:02] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 10:36:03] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 10:36:03] "POST /add_peer HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.105:5003
+Press CTRL+C to quit
+127.0.0.1 - - [24/Sep/2025 11:02:29] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:02:29] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:02:29] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:02:50] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:04:09] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:05:41] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:06:40] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.105:5003
+Press CTRL+C to quit
+127.0.0.1 - - [24/Sep/2025 11:23:20] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:23:20] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:23:20] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:26:59] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.105:5003
+Press CTRL+C to quit
+127.0.0.1 - - [24/Sep/2025 11:57:07] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:57:07] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:57:07] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:57:16] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:58:11] "POST /block_gossip HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.106:5003
+Press CTRL+C to quit
+127.0.0.1 - - [25/Sep/2025 15:56:14] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:56:15] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:56:15] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:56:28] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:56:57] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:57:45] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:58:12] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:58:35] "POST /block_gossip HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2025 15:59:01] "POST /block_gossip HTTP/1.1" 200 -
