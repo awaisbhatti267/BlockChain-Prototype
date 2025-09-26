@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/Front-End/Styles/dashboard.css">
+</head>
+
+<body>
+    <div class="main2">
+        <div class="navbar2">
+            <div class="icon2">
+                <h2 class="logo2">DoubleForge: Blockchain Attack Testing Suite</h2>
+            </div>
+            <div class="menu2">
+                <ul2>
+                    <li><a href="/dashboard.html" style="color: red;">Dashboard</a></li>
+                    <li><a href="transaction.html">Create Transaction</a></li>
+                    <li><a href="log.html">Logs</a></li>
+                    <li><a href="report.html">Reports</a></li>
+                </ul2>
+            </div>
+        </div>
+        <div class="group">
+            <div>
+                <h2 class="recent">Recent Attacks</h2>
+            </div>
+            <div>
+                <h2 class="sim">Simulation Controls</h2>
+            </div>
+        </div>
+        <div class="box-gr">
+            <div class="box">
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+            </div>
+            <div class="box2">
+                <div class="boxes2"></div>
+                <div class="boxes2"></div>
+                <div class="boxes2"></div>
+            </div>
+        </div>
+        <div id="createbtn" class="btn-gr">
+            <button class="create">Create Transaction</button>
+        </div>
+        <div id="runattackbtn" class="btn-gr2">
+            <button class="create">Run Attack</button>
+        </div>
+        <div><button id="exitbtn" class="exit">Exit</button></div>
+        <!-- Adjust Parameters Button -->
+        <div id="adjustbtn" class="btn-gr3">
+            <button class="create">Adjust Parameters</button>
+        </div>
+
+        <!-- Modal for Adjust Parameters -->
+        <div id="parametersModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Adjust Simulation Parameters</h2>
+
+                <label>Hash Rate (%)</label>
+                <input type="number" id="hashRate" value="51"><br><br>
+
+                <label>Confirmation Time (in blocks)</label>
+                <select id="confirmTime">
+                    <option value="1">1</option>
+                    <option value="3" selected>3</option>
+                    <option value="6"></option>
+                </select><br><br>
+
+                <label>Network Delay (ms)</label>
+                <input type="number" id="networkDelay" value="200"><br><br>
+
+                <label>Node Count</label>
+                <input type="number" id="nodeCount" value="5"><br><br>
+
+                <button id="applyParams" class="create">Apply Changes</button>
+                <button id="cancelParams" class="exit">Cancel</button>
+            </div>
+        </div>
+        <div class="block-explorer">
+            <h2>📦 Blockchain Explorer</h2>
+            <table id="blockTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Hash</th>
+                        <th>Prev Hash</th>
+                        <th>Tx Count</th>
+                        <th>Mined At</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <button class="refresh-btn" onclick="loadBlocks()">🔄 Refresh</button>
+        </div>
+        <div class="pending-transactions">
+            <h2>🕒 Pending Transactions</h2>
+            <table id="mempoolTable">
+                <thead>
+                    <tr>
+                        <th>TxID</th>
+                        <th>Sender</th>
+                        <th>Receiver</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+    <script>
+        // ---------- Dashboard Attack Controls / Modal Integration ----------
+        // Assumes Flask backend base:
+        const BACKEND_BASE = "http://127.0.0.1:5001";
+
+        // Helper: POST JSON
+        async function postJSON(path, body) {
+            const res = await fetch(`${BACKEND_BASE}${path}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(body || {})
+            });
+            return res.json();
+        }
+
+        // Helper: GET JSON
+        async function getJSON(path) {
+            const res = await fetch(`${BACKEND_BASE}${path}`);
+            return res.json();
+        }
+
+        // ---------- Modal / Adjust Parameters UI ----------
+        // Elements from your dashboard HTML:
+        const adjustBtnWrapper = document.getElementById("adjustbtn"); // wrapper div
+        const parametersModal = document.getElementById("parametersModal");
+        const closeSpan = parametersModal ? parametersModal.querySelector(".close") : null;
+        const applyParamsBtn = document.getElementById("applyParams");
+        const cancelParamsBtn = document.getElementById("cancelParams");
+
+        // Input fields in modal
+        const hashRateInput = document.getElementById("hashRate");
+        const confirmTimeSelect = document.getElementById("confirmTime");
+        const networkDelayInput = document.getElementById("networkDelay");
+        const nodeCountInput = document.getElementById("nodeCount");
+
+        // Open modal when "Adjust Parameters" block/button clicked
+        if (adjustBtnWrapper) {
+            // clicking the wrapper or its inner button will open modal
+            adjustBtnWrapper.addEventListener("click", async (e) => {
+                // load current params from backend (if any)
+                try {
+                    const res = await fetch(`${BACKEND_BASE}/get_params`);
+                    const data = await res.json();
+                    const params = data.params || {};
+
+                    // Map stored params to modal fields (safely)
+                    if (params.ATTACKER_HASH_POWER_SHARE !== undefined) {
+                        // show percentage for readability if stored as fraction
+                        const v = Number(params.ATTACKER_HASH_POWER_SHARE);
+                        if (!Number.isNaN(v)) {
+                            // convert fraction to percent if <=1
+                            hashRateInput.value = v <= 1 ? Math.round(v * 100) : Math.round(v);
+                        }
+                    }
+                    if (params.VICTIM_CONFIRMATIONS !== undefined) confirmTimeSelect.value = params.VICTIM_CONFIRMATIONS;
+                    if (params.ATTACKER_NETWORK_DELAY_MS !== undefined) networkDelayInput.value = params.ATTACKER_NETWORK_DELAY_MS;
+                    if (params.NUM_OF_NODES !== undefined) nodeCountInput.value = params.NUM_OF_NODES;
+
+                } catch (err) {
+                    // ignore if not available
+                    console.warn("Could not fetch saved params:", err);
+                }
+
+                // show modal
+                if (parametersModal) parametersModal.style.display = "block";
+            });
+        }
+
+        // Close modal handlers
+        if (closeSpan) closeSpan.onclick = () => parametersModal.style.display = "none";
+        if (cancelParamsBtn) cancelParamsBtn.addEventListener("click", () => parametersModal.style.display = "none");
+        window.onclick = function (event) {
+            if (event.target === parametersModal) parametersModal.style.display = "none";
+        };
+
+        // ---------- Apply / Save Parameters ----------
+        // When user clicks Apply Changes
+        if (applyParamsBtn) {
+            applyParamsBtn.addEventListener("click", async () => {
+                // collect values from modal
+                const hashRatePercent = Number(hashRateInput.value || 0);
+                const confirmationTime = Number(confirmTimeSelect.value || 0);
+                const networkDelay = Number(networkDelayInput.value || 0);
+                const nodeCount = Number(nodeCountInput.value || 0);
+
+                // map to keys your Java/SimulationConfiguration expects.
+                // Adjust keys as needed — these are the recommended keys:
+                const params = {
+                    // store hash power as share between 0..1 if user entered percent
+                    ATTACKER_HASH_POWER_SHARE: hashRatePercent > 1 ? (hashRatePercent / 100) : hashRatePercent,
+                    VICTIM_CONFIRMATIONS: confirmationTime,
+                    ATTACKER_NETWORK_DELAY_MS: networkDelay,
+                    NUM_OF_NODES: nodeCount,
+                    // keep a friendly timestamp
+                    updated_at: Date.now()
+                };
+
+                try {
+                    const resp = await postJSON("/set_params", params);
+                    console.log("set_params response:", resp);
+                    alert("Parameters saved. SimBlock can read sim_params.json or poll /get_params.");
+                    // close modal
+                    if (parametersModal) parametersModal.style.display = "none";
+                } catch (err) {
+                    console.error("Failed to set params:", err);
+                    alert("Failed to save parameters. See console for details.");
+                }
+            });
+        }
+
+        // ---------- Run Attack Button ----------
+        // Your dashboard has a wrapper with id "runattackbtn". Find the inner action button and attach handler.
+        const runAttackWrapper = document.getElementById("runattackbtn");
+        if (runAttackWrapper) {
+            // attempt to find .create button inside wrapper
+            const runBtn = runAttackWrapper.querySelector(".create");
+            if (runBtn) {
+                runBtn.addEventListener("click", async (e) => {
+                    e.preventDefault();
+                    // Optionally gather param preview to send with trigger
+                    const triggerInfo = {
+                        requested_by: "dashboard",
+                        ts: Date.now()
+                    };
+                    try {
+                        const resp = await postJSON("/run_attack", triggerInfo);
+                        console.log("run_attack response:", resp);
+                        alert("Attack triggered. Check Logs page for attack activity.");
+                        // optionally refresh logs / dashboard
+                        try { if (typeof fetchLogs === "function") fetchLogs(); } catch (e) { }
+                        try { refreshDashboard(); } catch (e) { }
+                    } catch (err) {
+                        console.error("Failed to trigger attack:", err);
+                        alert("Failed to trigger attack. Is the backend running?");
+                    }
+                });
+            } else {
+                // fallback if no inner button found: attach to wrapper
+                runAttackWrapper.addEventListener("click", async () => {
+                    try {
+                        await postJSON("/run_attack", { requested_by: "dashboard", ts: Date.now() });
+                        alert("Attack triggered.");
+                    } catch (err) {
+                        alert("Failed to trigger attack.");
+                    }
+                });
+            }
+        }
+
+        // ---------- Optional: load params on dashboard start and show a small indicator ----------
+        async function loadAndShowParams() {
+            try {
+                const res = await getJSON("/get_params");
+                const p = res.params || {};
+                const boxes2 = document.querySelectorAll(".boxes2");
+                if (boxes2 && boxes2.length > 0) {
+                    boxes2[0].innerHTML = `<div style="padding:8px;color:#FFD700;font-family:Arial;font-size:14px;">
+        <b>Strategy:</b> ${p.ATTACK_STRATEGY || "N/A"}<br/>
+        <b>HashShare:</b> ${p.ATTACKER_HASH_POWER_SHARE !== undefined ? p.ATTACKER_HASH_POWER_SHARE : "N/A"}
+      </div>`;
+                }
+            } catch (err) {
+                // silent
+            }
+        }
+        loadAndShowParams();
+        setInterval(loadAndShowParams, 6000);
+
+    </script>
+
+
+    <script src="dashboard.js"></script>
+    <script src="explorer.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
