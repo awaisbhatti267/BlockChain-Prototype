@@ -1,0 +1,4 @@
+timestamp,hash_share,delay_ms,rep,attack_success,attacker_balance,merchant_balance,alice_balance,bob_balance
+1757912593,0.3,50,0,False,500,100,100,50
+1757912600,0.3,50,1,False,500,100,100,50
+1757912608,0.3,200,0,False,500,100,100,50

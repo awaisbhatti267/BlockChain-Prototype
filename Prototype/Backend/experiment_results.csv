@@ -1,0 +1,21 @@
+timestamp,nodes,attack_success,attacker_balance,merchant_balance,alice_balance,bob_balance,logs_snippet
+1757912536,2,False,500,100,100,50,"[1757912532] Peer added: http://127.0.0.1:5001
+[1757912532] Peer added: http://127.0.0.1:5002
+[1757912532] Run-attack armed from dashboard: {'requested_by': 'experiment', 'ts': 1757912532802}
+[1757912532] Peer added: http://127.0.0.1:5001
+[1757912532] Peer added: http://127.0.0.1:5002"
+1757912592,2,False,500,100,100,50,"[1757912589] Peer added: http://127.0.0.1:5001
+[1757912589] Peer added: http://127.0.0.1:5002
+[1757912589] Run-attack armed from dashboard: {'requested_by': 'experiment', 'ts': 1757912589229}
+[1757912589] Peer added: http://127.0.0.1:5001
+[1757912589] Peer added: http://127.0.0.1:5002"
+1757912600,2,False,500,100,100,50,"[1757912596] Peer added: http://127.0.0.1:5001
+[1757912596] Peer added: http://127.0.0.1:5002
+[1757912597] Run-attack armed from dashboard: {'requested_by': 'experiment', 'ts': 1757912597015}
+[1757912597] Peer added: http://127.0.0.1:5001
+[1757912597] Peer added: http://127.0.0.1:5002"
+1757912608,2,False,500,100,100,50,"[1757912604] Peer added: http://127.0.0.1:5001
+[1757912604] Peer added: http://127.0.0.1:5002
+[1757912604] Run-attack armed from dashboard: {'requested_by': 'experiment', 'ts': 1757912604826}
+[1757912604] Peer added: http://127.0.0.1:5001
+[1757912604] Peer added: http://127.0.0.1:5002"

@@ -1,0 +1,424 @@
+[node:5001] 2025-09-16 13:08:35 ERR: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+[node:5001] 2025-09-16 13:08:35 ERR:  * Running on all addresses (0.0.0.0)
+[node:5001] 2025-09-16 13:08:35 ERR:  * Running on http://127.0.0.1:5001
+[node:5001] 2025-09-16 13:08:35 ERR:  * Running on http://192.168.0.110:5001
+[node:5001] 2025-09-16 13:08:35 ERR: Press CTRL+C to quit
+[node:5001] 2025-09-16 13:08:36 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:36] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:36 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:36] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:36 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:36] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:37 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:37] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:37 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:37] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:38 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:38] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:38 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:38] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:39 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:39] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:39 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:39] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:40 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:40] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:40 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:40] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:40 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:40] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:41 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:41] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:41 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:41] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:42 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:42] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:42 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:42] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:43 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:43] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:43 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:43] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:43 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:43] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:44 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:44] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:44 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:44] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:45 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:45] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:45 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:45] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:45 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:45] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:46 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:46] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:46 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:46] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:47 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:47] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:47 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:47] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:47 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:47] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:47 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:47] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:48 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:48] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:48 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:48] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:49 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:49] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:49 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:49] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:50 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:50] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:50 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:50] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:51 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:51] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:51 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:51] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:51 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:51] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:51 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:51] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:52 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:52] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:52 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:52] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:53 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:53] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:53 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:53] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:53 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:53] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:54 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:54] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:54 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:54] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:55 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:55] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:55 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:55] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET /get_params HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:56 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:56] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "OPTIONS /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "OPTIONS /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "POST /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "POST /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:57] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:58 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:58] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:58 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:58] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:59 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:59] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:08:59 ERR: 127.0.0.1 - - [16/Sep/2025 13:08:59] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET /get_params HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:00 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:00] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:01 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:01] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:01 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:01] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:01 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:01] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:01 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:01] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:02 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:02] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:02 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:02] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:03 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:03] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:03 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:03] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:04 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:04] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:05 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:05] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 13:09:05 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:05] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:05 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:05] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:07 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:07] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:07 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:07] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:07 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:07] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:07 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:07] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:11 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:11] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:11 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:11] "OPTIONS /api/tx HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:11 ERR: [2025-09-16 13:09:11,219] ERROR in app: Exception on /api/tx [POST]
+[node:5001] 2025-09-16 13:09:11 ERR: Traceback (most recent call last):
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+[node:5001] 2025-09-16 13:09:11 ERR:     response = self.full_dispatch_request()
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:11 ERR:     rv = self.handle_user_exception(e)
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+[node:5001] 2025-09-16 13:09:11 ERR:     return cors_after_request(app.make_response(f(*args, **kwargs)))
+[node:5001] 2025-09-16 13:09:11 ERR:                                                 ~^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:11 ERR:     rv = self.dispatch_request()
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+[node:5001] 2025-09-16 13:09:11 ERR:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[node:5001] 2025-09-16 13:09:11 ERR:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:11 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 229, in api_tx
+[node:5001] 2025-09-16 13:09:11 ERR:     add_log(f"[ATTACK-ARMED] Attack attempt on tx {tx.txid} ({tx.sender} \u2192 {tx.receiver}, {tx.amount}). Share={params.get('ATTACKER_HASH_POWER_SHARE', 'N/A')}")
+[node:5001] 2025-09-16 13:09:11 ERR:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:11 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 126, in add_log
+[node:5001] 2025-09-16 13:09:11 ERR:     print(log_entry)
+[node:5001] 2025-09-16 13:09:11 ERR:     ~~~~~^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:11 ERR:   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+[node:5001] 2025-09-16 13:09:11 ERR:     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[node:5001] 2025-09-16 13:09:11 ERR:            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:11 ERR: UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 121: character maps to <undefined>
+[node:5001] 2025-09-16 13:09:11 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:11] "POST /api/tx HTTP/1.1" 500 -
+[node:5001] 2025-09-16 13:09:13 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:13] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:13 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:13] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:19 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:19] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:19 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:19] "OPTIONS /api/tx HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:19 ERR: [2025-09-16 13:09:19,132] ERROR in app: Exception on /api/tx [POST]
+[node:5001] 2025-09-16 13:09:19 ERR: Traceback (most recent call last):
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+[node:5001] 2025-09-16 13:09:19 ERR:     response = self.full_dispatch_request()
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:19 ERR:     rv = self.handle_user_exception(e)
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+[node:5001] 2025-09-16 13:09:19 ERR:     return cors_after_request(app.make_response(f(*args, **kwargs)))
+[node:5001] 2025-09-16 13:09:19 ERR:                                                 ~^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:19 ERR:     rv = self.dispatch_request()
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+[node:5001] 2025-09-16 13:09:19 ERR:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[node:5001] 2025-09-16 13:09:19 ERR:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:19 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 257, in api_tx
+[node:5001] 2025-09-16 13:09:19 ERR:     add_log(f"Transaction {tx.txid} accepted from {tx.sender} \u2192 {tx.receiver} ({tx.amount})")
+[node:5001] 2025-09-16 13:09:19 ERR:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:19 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 126, in add_log
+[node:5001] 2025-09-16 13:09:19 ERR:     print(log_entry)
+[node:5001] 2025-09-16 13:09:19 ERR:     ~~~~~^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:19 ERR:   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+[node:5001] 2025-09-16 13:09:19 ERR:     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[node:5001] 2025-09-16 13:09:19 ERR:            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:19 ERR: UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+[node:5001] 2025-09-16 13:09:19 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:19] "POST /api/tx HTTP/1.1" 500 -
+[node:5001] 2025-09-16 13:09:23 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:23] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:09:23 ERR: [2025-09-16 13:09:23,932] ERROR in app: Exception on /api/tx [POST]
+[node:5001] 2025-09-16 13:09:23 ERR: Traceback (most recent call last):
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+[node:5001] 2025-09-16 13:09:23 ERR:     response = self.full_dispatch_request()
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:23 ERR:     rv = self.handle_user_exception(e)
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+[node:5001] 2025-09-16 13:09:23 ERR:     return cors_after_request(app.make_response(f(*args, **kwargs)))
+[node:5001] 2025-09-16 13:09:23 ERR:                                                 ~^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+[node:5001] 2025-09-16 13:09:23 ERR:     rv = self.dispatch_request()
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Users\awais\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+[node:5001] 2025-09-16 13:09:23 ERR:     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[node:5001] 2025-09-16 13:09:23 ERR:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:23 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 257, in api_tx
+[node:5001] 2025-09-16 13:09:23 ERR:     add_log(f"Transaction {tx.txid} accepted from {tx.sender} \u2192 {tx.receiver} ({tx.amount})")
+[node:5001] 2025-09-16 13:09:23 ERR:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:23 ERR:   File "E:\Awais\Virtual Uni\FYP\Prototype\backend\app.py", line 126, in add_log
+[node:5001] 2025-09-16 13:09:23 ERR:     print(log_entry)
+[node:5001] 2025-09-16 13:09:23 ERR:     ~~~~~^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:23 ERR:   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+[node:5001] 2025-09-16 13:09:23 ERR:     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[node:5001] 2025-09-16 13:09:23 ERR:            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[node:5001] 2025-09-16 13:09:23 ERR: UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 110: character maps to <undefined>
+[node:5001] 2025-09-16 13:09:23 ERR: 127.0.0.1 - - [16/Sep/2025 13:09:23] "POST /api/tx HTTP/1.1" 500 -
+[node:5001] 2025-09-16 13:10:06 ERR: 127.0.0.1 - - [16/Sep/2025 13:10:06] "POST /add_peer HTTP/1.1" 200 -
+[node:5001] 2025-09-16 13:10:06 ERR: 127.0.0.1 - - [16/Sep/2025 13:10:06] "POST /add_peer HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:37 ERR: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+[node:5001] 2025-09-16 14:06:37 ERR:  * Running on all addresses (0.0.0.0)
+[node:5001] 2025-09-16 14:06:37 ERR:  * Running on http://127.0.0.1:5001
+[node:5001] 2025-09-16 14:06:37 ERR:  * Running on http://192.168.0.110:5001
+[node:5001] 2025-09-16 14:06:37 ERR: Press CTRL+C to quit
+[node:5001] 2025-09-16 14:06:38 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:38] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:39 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:39] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:39 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:39] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:40 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:40] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:40 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:40] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:41 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:41] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:41 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:41] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:42 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:42] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:42 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:42] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:43 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:43] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:43 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:43] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:44 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:44] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:44 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:44] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:45 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:45] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:45 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:45] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:46 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:46] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:46 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:46] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET /get_params HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:47 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:47] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:48] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:48] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:48] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:48] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:49 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:49] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:49 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:49] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:50 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:50] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:50 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:50] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:51 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:51] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:51 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:51] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:52 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:52] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:52 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:52] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:53 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:53] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:53 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:53] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:54] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:54] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:54] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:54] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:54] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:55 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:55] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:55 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:55] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:56 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:56] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:56 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:56] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:56 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:56] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:56 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:56] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:56 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:56] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:57 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:57] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:57 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:57] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:58 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:58] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:58 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:58] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/mempool HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:06:59 ERR: 127.0.0.1 - - [16/Sep/2025 14:06:59] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "OPTIONS /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "OPTIONS /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "POST /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "POST /run_attack HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:00] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:01 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:01] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:01 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:01] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:01 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:01] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:01 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:01] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET /api/chain HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET /get_params HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:02] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:03 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:03] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:03 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:03] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:04 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:04] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:04 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:04] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:04 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:04] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:04 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:04] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:05 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:05] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:05 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:05] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:05 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:05] "GET /api/balance/miner HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:06 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:06] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:06 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:06] "GET /api/balance/bob HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:06 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:06] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:06 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:06] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:07 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:07] "GET / HTTP/1.1" 404 -
+[node:5001] 2025-09-16 14:07:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:08] "GET /api/balance/alice HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:08] "OPTIONS /api/tx HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:09] "POST /api/tx HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:10 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:10] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:10 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:10] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:11] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:12] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:12] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:12] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:12] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:13 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:13] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:13 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:13] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:13 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:13] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:13 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:13] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:14 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:14] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:15] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:15] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:15] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:15] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:15] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:16 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:16] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:16 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:16] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:16 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:16] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:16 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:16] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:16 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:16] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:17 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:17] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:18] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:18] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:18] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:18] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:19 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:19] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:20 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:20] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:20 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:20] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:20 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:20] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:20 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:20] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:21] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:22 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:22] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:22 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:22] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:22 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:22] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:22 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:22] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:23 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:23] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:24] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:24] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:24] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:24] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:25 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:25] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:25 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:25] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:25 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:25] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:25 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:25] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:28 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:28] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:28 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:28] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:36 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:36] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:36 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:36] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:37 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:37] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:40 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:40] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:43 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:43] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:46 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:46] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:49 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:49] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:52 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:52] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:55 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:55] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:07:58 ERR: 127.0.0.1 - - [16/Sep/2025 14:07:58] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:02 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:02] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:05 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:05] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:08] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:08] "POST /add_peer HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:08] "POST /add_peer HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:08] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:08] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:12] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:15] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:18] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:21] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:24] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:27 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:27] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:30 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:30] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:33 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:33] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:36 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:36] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:39 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:39] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:42 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:42] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:45 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:45] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:48] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:51 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:51] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:54] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:08:57 ERR: 127.0.0.1 - - [16/Sep/2025 14:08:57] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:03 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:03] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:05 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:05] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:08 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:08] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:11] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:15 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:15] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:18 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:18] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:21 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:21] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:24 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:24] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:27 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:27] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:30 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:30] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:33 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:33] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:36 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:36] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:39 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:39] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:42 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:42] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:45 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:45] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:48 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:48] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:51 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:51] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:54 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:54] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:09:57 ERR: 127.0.0.1 - - [16/Sep/2025 14:09:57] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:10:00 ERR: 127.0.0.1 - - [16/Sep/2025 14:10:00] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:10:03 ERR: 127.0.0.1 - - [16/Sep/2025 14:10:03] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:10:06 ERR: 127.0.0.1 - - [16/Sep/2025 14:10:06] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:10:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:10:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:10:12 ERR: 127.0.0.1 - - [16/Sep/2025 14:10:12] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:11:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:11:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:12:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:12:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:13:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:13:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:14:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:14:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:15:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:15:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:16:09 ERR: 127.0.0.1 - - [16/Sep/2025 14:16:09] "GET /logs HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:16:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:16:11] "GET /peers HTTP/1.1" 200 -
+[node:5001] 2025-09-16 14:16:11 ERR: 127.0.0.1 - - [16/Sep/2025 14:16:11] "GET /logs HTTP/1.1" 200 -
